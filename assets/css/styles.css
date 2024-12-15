@@ -14,7 +14,7 @@ img {
     cursor: pointer;
 }
 
-header {
+nav {
     display: flex;
     align-items: center;
     padding: 10px 2%;
@@ -24,12 +24,12 @@ header {
     z-index: 100;
 }
 
-.header-izquierdo, .header-medio, .header-derecho {
+.nav-izquierdo, .nav-medio, .nav-derecho {
     display: flex;
     align-items: center;
 }
 
-.header-medio {
+.nav-medio {
     flex: 1;
     justify-content: center;
 }
@@ -43,16 +43,16 @@ header {
     width: 120px;
 }
 
-.header-derecho img {
+.nav-derecho img {
     width: 25px;
 }
 
-.header-derecho .user-icon {
+.nav-derecho .user-icon {
     width: 35px;
     border-radius: 50%;
 }
 
-.header-medio .mic-icon {
+.nav-medio .mic-icon {
     width: 19px;
 }
 
@@ -285,7 +285,7 @@ p {
         margin-right: 0;
     }
 
-    .header-medio {
+    .nav-medio {
         justify-content: end;
     }
 
